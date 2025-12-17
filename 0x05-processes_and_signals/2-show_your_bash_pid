@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays lines containing the word 'bash' from the full process list.
+# shellcheck disable=SC2009
+ps aux | grep "[b]ash"
